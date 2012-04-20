@@ -1,6 +1,6 @@
-# Success
+# Succeed
 
-Success is a service for incrementing integers
+Succeed is a service for incrementing integers
 
 ## Configuration
 
