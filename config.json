@@ -4,10 +4,15 @@
   "port": 8080,
 
   "incrementers": {
-    "count": {
-      "path": "count",
-      "reserve": 10,
+    "count1": {
+      "path": "./data/count1",
+      "reserve": 100,
       "jump": 1
+    },
+    "count3": {
+      "path": "./data/count3",
+      "reserve": 100,
+      "jump": 3
     }
   },
 
