@@ -1,6 +1,6 @@
 var fs = require('fs');
 var winston = require('winston');
-var Server = require('./lib/success/server');
+var Server = require('./lib/succeed/server');
 
 // Load the config
 var config = JSON.parse(fs.readFileSync('config.json'));
