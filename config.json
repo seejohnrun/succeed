@@ -6,7 +6,7 @@
   "incrementers": {
     "path": "./data",
     "reserve": 100,
-    "jump": 10
+    "jump": 1
   },
 
   "logging": [
