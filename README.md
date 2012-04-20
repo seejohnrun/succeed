@@ -16,4 +16,3 @@ Success is a service for incrementing integers
 ## TODO
 
 * Be able to set a size of when async should refill (before limit is hit)
-* Get multiple keys at once
