@@ -3,11 +3,20 @@
   "host": "127.0.0.1",
   "port": 8080,
 
-  "jump": 1,
-  "reserve": 100,
+  "incrementers": {
+    "count": {
+      "path": "count",
+      "reserve": 10,
+      "jump": 1
+    }
+  },
 
   "logging": [
-    { "type": "Console", "level": "verbose", "colorize": true }
+    {
+      "type": "Console",
+      "level": "verbose",
+      "colorize": true
+    }
   ]
 
 }
